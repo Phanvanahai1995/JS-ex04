@@ -8,7 +8,7 @@ content = `<span>${content}</span>`;
 console.log(content);
 let i = 0;
 
-setInterval(function () {
+setInterval(() => {
   let firstChar = content.charAt(i);
   let nextChar = content.charAt(i + 1);
   let html = "";
